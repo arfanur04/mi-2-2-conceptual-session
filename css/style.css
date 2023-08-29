@@ -216,7 +216,6 @@ nav {
 /*: -------------------- discount section design ends here ------------------- */
 
 .review-container {
-	border: 1px solid red;
 	gap: 20px;
 	min-height: 200px;
 	margin-top: 50px;
@@ -227,7 +226,6 @@ nav {
 }
 
 .single-review {
-	border: 1px solid green;
 	flex-basis: 300px;
 	background-color: #e893cf;
 	padding: 10px;
