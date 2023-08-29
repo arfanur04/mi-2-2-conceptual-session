@@ -1,3 +1,18 @@
+/*> media screen 800px */
+@media screen and (max-width: 800px) {
+	.grid-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/*> media screen 700px */
+@media screen and (max-width: 700px) {
+	.grid-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/*> media screen 400px */
 @media screen and (max-width: 400px) {
 	.nav-container {
 		flex-direction: column;
@@ -15,5 +30,42 @@
 	.nav-item-container .login-btn {
 		width: 100%;
 		margin-bottom: 10px;
+	}
+	/*: ------------------------ nav responsive ends here ------------------------ */
+
+	.banner-container {
+		flex-direction: column;
+	}
+
+	.banner-text,
+	.banner-img {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.banner-text h1 {
+		font-size: 30px;
+	}
+
+	.banner-text p {
+		font-size: 25px;
+	}
+
+	.banner-text .fa-brands {
+		font-size: 30px;
+	}
+	/*: ----------------------- banner responsive ends here ---------------------- */
+
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+
+	.discount-container {
+		flex-direction: column;
+	}
+
+	.discount-img,
+	.discount-text {
+		width: 100%;
 	}
 }

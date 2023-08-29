@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -60,3 +60,188 @@ nav {
 	color: black;
 	text-align: center;
 }
+
+.login-btn .fa-solid {
+	color: #9376e0;
+}
+/*: -------------------------- nav design ends here -------------------------- */
+
+.banner-container {
+	margin: 50px auto 0;
+	max-width: 1400px;
+	min-height: 50px;
+	display: flex;
+	background-color: #e6e9eb;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.banner-text {
+	width: 50%;
+	text-align: center;
+}
+
+.banner-img {
+	width: 50%;
+}
+
+.banner-img img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.banner-text h1 {
+	background-image: linear-gradient(to bottom, #9376e0, #e893e8);
+	color: transparent;
+	-webkit-background-clip: text;
+	font-size: 50px;
+}
+
+.banner-text p {
+	font-size: 45px;
+	font-family: "Dancing Script", cursive;
+}
+
+.icons-container {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto 40px;
+}
+
+.banner-text .fa-brands {
+	font-size: 60px;
+}
+
+.banner-buttons {
+	background-color: transparent;
+	padding: 10px 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+/*: --------------------- banner section design ends here -------------------- */
+.grid-container {
+	display: grid;
+	max-width: 1400px;
+	margin: 50px auto 0;
+	min-height: 400px;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.single-product {
+	background: rgba(112, 128, 144, 0.418);
+	border-radius: 10px;
+	padding: 0 10px;
+	box-shadow: 2px 2px 4px black;
+}
+
+.single-product img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.product-icon-name-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product-icon {
+	font-size: 20px;
+}
+
+.product-icon-name-container span {
+	padding: 10px;
+	background-color: #9376e0;
+	border-radius: 50%;
+	margin-left: 5px;
+	color: white;
+}
+/*: ------------------------- all products ends here ------------------------- */
+
+.discount-section {
+	background-color: #9376e0;
+	min-height: 500px;
+	padding: 20px 0;
+}
+
+.discount-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.discount-img {
+	width: 50%;
+	position: relative;
+}
+
+.discount-img img {
+	width: 70%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.discount-text {
+	width: 50%;
+}
+
+.discount-text button {
+	background-color: #9376e0;
+	border: 2px solid white;
+	padding: 5px 10px;
+	font-weight: 700;
+}
+
+.discount-number {
+	background-color: rgb(153, 153, 26);
+	height: 90px;
+	width: 90px;
+	font-size: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 70%;
+	top: 5%;
+}
+/*: -------------------- discount section design ends here ------------------- */
+
+.review-container {
+	border: 1px solid red;
+	gap: 20px;
+	min-height: 200px;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.single-review {
+	border: 1px solid green;
+	flex-basis: 300px;
+	background-color: #e893cf;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.single-review img {
+	width: 60px;
+	height: 60px;
+}
+
+.top-review {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*: ------------------ user review section design ends here ------------------ */
